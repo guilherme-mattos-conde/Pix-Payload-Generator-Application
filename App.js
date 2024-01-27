@@ -1,20 +1,34 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useCallback } from 'react';
+import { SafeAreaView, StatusBar } from 'react-native';
+import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat'
+import * as SplashScreen from 'expo-splash-screen';
+
+import AppRotas from './src/routes/AppRotas'
+import useCores from './src/hooks/useCores'
+
+SplashScreen.preventAutoHideAsync()
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  const { corFundo } = useCores()
+
+  let [fontsLoaded] = useFonts({
+    'fontRegular': Montserrat_400Regular,
+    'fontBold': Montserrat_700Bold
+  })
+
+  const onLayoutRootView = useCallback(async () => {
+    if (fontsLoaded) {
+      await SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded]);
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
+  return <SafeAreaView style={{flex: 1, backgroundColor: corFundo}} onLayout={onLayoutRootView}>
+    <StatusBar backgroundColor={ corFundo }/>
+      <AppRotas/>
+  </SafeAreaView>
+}
