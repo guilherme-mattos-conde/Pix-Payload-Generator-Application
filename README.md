@@ -1,4 +1,4 @@
-<h1>Payload-Generator-Application | Welcome to my repository ✌</h1>
+# Payload-Generator-Application | Welcome to my repository ✌
 
 <p align="justify">In this repository I made a <b>Payload Generator Application</b> developed for my capstone project as a computer technician at the Federal Institute of Paraná (IFPR). The project is named "<b>Development of an Application for Generating Pix Payloads:</b> the support of technology in payment methods".</p>
 
@@ -24,16 +24,15 @@
 
 <p align="justify"><b>Keywords:</b> application; payment methods; Pix payload; Pix; technology.</p>
 
-
-<br/>
-<div align="left">
-  <a href="mailto:guimattos205@gmail.com" target="blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=EA4335&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/guilherme-mattos-conde/" target="blank">
-    <img src="https://img.shields.io/static/v1?message=Linkedin&logo=linkedin&label=&color=0A66C2&logoColor=white&labelColor=&style=for-the-badge" height="30"  alt="linkedin logo"/>
-  </a>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="30" width="42" alt="javascript logo"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/react/react-original.svg" height="30" width="42" alt="react native logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-plain.svg" height="30" width="42" alt="mysql logo"/>
+<div style="display: inline-block">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="55" height="40" alt="react logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="55" height="40" alt="javascript logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-plain.svg" width="55" height="40" alt="sqlite logo"/>
 </div>
+
+##
+### Connect with me:
+
+<a href="mailto:guimattos205@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=EA4335&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" /></a>
+<a href="https://www.linkedin.com/in/guilherme-mattos-conde/" target="_blank"><img src="https://img.shields.io/static/v1?message=Linkedin&logo=linkedin&label=&color=0A66C2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /></a>
+<a href="https://instagram.com/guizin_205" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo" /></a>
